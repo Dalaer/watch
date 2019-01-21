@@ -1,0 +1,611 @@
+{
+	"xianshigou" : {
+		"list" : [
+			{
+				"name":"天铭",
+				"discount" : "5",
+				"now" : "￥1,450",
+				"prev" : "￥2,900",
+				"src" : "004.jpg"
+			},
+			{
+				"name":"梅花",
+				"discount" : "5.2",
+				"now" : "￥14,560",
+				"prev" : "￥28,000",
+				"src" : "005.png"
+			},
+			{
+				"name":"天梭",
+				"discount" : "5.1",
+				"now" : "￥5,916",
+				"src" : "006.jpg",
+				"prev" : "￥11,600"
+			},
+			{
+				"name":"赫柏林",
+				"discount" : "5.6",
+				"src" : "007.jpg",
+				"now" : "￥1,650",
+				"prev" : "￥3,000"
+			},
+			{
+				"name":"赫柏林",
+				"discount" :"5.6",
+				"src" : "008.jpg",
+				"now" : "￥6,215",
+				"prev" : "￥11,300"
+			},
+			{
+				"name":"浪琴",
+				"src" : "009.jpg",
+				"discount" : "5.8",
+				"now" : "￥18,888",
+				"prev" : "￥32,900"
+			},
+			{
+				"name":"飞亚达",
+				"src" : "010.jpg",
+				"discount" : "5.8",
+				"now" : "￥509",
+				"prev" : "￥880"
+			},
+			{
+				"name":"汉米尔顿",
+				"src" : "011.jpg",
+				"discount" : "5.9",
+				"now" : "￥4,661",
+				"prev" : "￥7,900"
+			},
+			{
+				"name":"CK",
+				"src" : "012.jpg",
+				"discount" : "5.9",
+				"now" : "￥1,590",
+				"prev" : "￥2,700"
+			},
+			{
+				"name":"豪度",
+				"src" : "001.jpg",
+				"discount" :" 6",
+				"now" : "￥2,999",
+				"prev" : "￥5,080"
+			},
+			{
+				"name":"梅花",
+				"src" : "002.jpg",
+				"discount" : "6",
+				"now" : "￥5,640",
+				"prev" : "￥9,400"
+			},
+			{
+				"name":"诺美纳",
+				"src" : "003.jpg",
+				"discount" : "6",
+				"now" : "￥8,160",
+				"prev" : "￥13,600"
+			}
+		]
+	},
+	"daren" : [
+		{
+			"name" : "本月爆款",
+			"left" : {
+				"src" : "daren.jpg" ,
+				"p1" : "瑞士柏高Paul Picot",
+				"p2" : "匠心美学，独立制表品牌"
+			},
+			"right" : [ "bao1.jpg" , "bao2.jpg" ,"bao3.jpg" , "bao4.jpg" ]
+		},
+		{
+			"name" : "正装",
+			"left" : {
+				"src" : "zhen.jpg" ,
+				"p1" : "劳力士ROLEX" ,
+				"p2" : "卓越性能和显赫特征"
+			},
+			"right" : [ "zhen1.jpg" , "zhen2.jpg" , "zhen3.jpg" , "zhen4.jpg"  ]
+		},
+		{
+			"name" : "时尚" ,
+			"left" : {
+				"src" : "shang.jpg" ,
+				"p1" : "卡西欧G-SHOCK 35周年" ,
+				"p2" : "坚韧不止，无惧挑战"
+			},
+			"right" : [ "shang1.jpg" , "shang2.jpg" , "shang3.jpg" , "shang4.jpg" ]
+		},
+		{
+			"name" : "运动智能" ,
+			"left" : {
+				"src" : "yun.jpg" ,
+				"p1" : "豪利时Oris 新品入驻" ,
+				"p2" : "原装进口，每满5000减300"
+			},
+			"right" : [ "yun1.jpg" , "yun2.jpg" , "yun3.jpg" , "yun4.jpg" ]
+		}
+	],
+	"paihang" : [
+		{
+			"name" : "男表" ,
+			"left" : {
+				"src" : "man.jpg",
+				"p1" : "德国格拉苏蒂·莫勒" ,
+				"p2" : "享受与众不同 Enjoy being different" 
+			},
+			"center" : {
+				"img" : "man1.jpg",
+				"src" : "1_logo.png" ,
+				"p1" : "爱宝时 Emotion情定康桥" ,
+				"sell" : "￥6140" ,
+				"count" : "4581"
+			},
+			"right" : [
+				{
+					"src" : "man2.jpg" ,
+					"inp1" : "浪琴 名匠系列" ,
+					"sell" : "￥12628" ,
+					"count" : "1540"
+				},
+				{
+					"src" : "man3.png" ,
+					"inp1" : "莫勒  Sporty Instrument Watches 运动系列" ,
+					"sell" : "￥8530" ,
+					"count" : "2469"
+				},
+				{
+					"src" : "man4.jpg" ,
+					"inp1" : "美度  贝伦赛丽 BARONCELLI系列" ,
+					"sell" : "￥4368" ,
+					"count" : "1451"
+				},
+				{
+					"src" : "man5.jpg" ,
+					"inp1" : "库尔沃  Historiador 历史学家系列" ,
+					"sell" : "￥15900" ,
+					"count" : "520"
+				}
+			]
+		},
+		{
+			"name" : "女表" ,
+			"left" : {
+				"src" : "girl.jpg",
+				"p1" : "瑞士高端珠宝腕表" ,
+				"p2" : "Centry 瑞士世纪表" 
+			},
+			"center" : {
+				"img" : "girl1.jpg",
+				"src" : "1_logo.png" ,
+				"p1" : "赫柏林  Antarès 恒星系列" ,
+				"sell" : "￥4080" ,
+				"count" : "1691"
+			},
+			"right" : [
+				{
+					"src" : "girl2.jpg" ,
+					"inp1" : "赫柏林  Perles 珍珠系列" ,
+					"sell" : "￥4720" ,
+					"count" : "2230"
+				},
+				{
+					"src" : "girl3.jpg" ,
+					"inp1" : "菲拉格慕  Cuore ferragamo   心动系列" ,
+					"sell" : "￥6336" ,
+					"count" : "423"
+				},
+				{
+					"src" : "girl4.jpg" ,
+					"inp1" : "天梭  力洛克系列" ,
+					"sell" : "￥3380" ,
+					"count" : "694"
+				},
+				{
+					"src" : "girl5.jpg" ,
+					"inp1" : "欧米茄  星座系列" ,
+					"sell" : "￥28372" ,
+					"count" : "184"
+				}
+			]
+		},
+		{
+			"name" : "潮表" ,
+			"left" : {
+				"src" : "chao.jpg",
+				"p1" : "卡西欧G-SHOCK35周年" ,
+				"p2" : "坚韧不止 无惧挑战" 
+			},
+			"center" : {
+				"img" : "chao1.png",
+				"src" : "1_logo.png" ,
+				"p1" : "驰客  Galaxy-银河系列" ,
+				"sell" : "￥1990" ,
+				"count" : "515"
+			},
+			"right" : [
+				{
+					"src" : "chao2.jpg" ,
+					"inp1" : "爱宝时  Emotion情感系列" ,
+					"sell" : "￥8000" ,
+					"count" : "990"
+				},
+				{
+					"src" : "chao3.jpg" ,
+					"inp1" : "爱宝时  Pocket watch 怀表系列" ,
+					"sell" : "￥9770" ,
+					"count" : "463"
+				},
+				{
+					"src" : "chao4.jpg" ,
+					"inp1" : "CK  男士Gents系列" ,
+					"sell" : "￥1210" ,
+					"count" : "719"
+				},
+				{
+					"src" : "chao5.jpg" ,
+					"inp1" : "精工  Seiko 5系列" ,
+					"sell" : "$1500" ,
+					"count" : "399"
+				}
+			]
+		}
+	],
+	"logo" :[ 
+		{
+			"name" : "轻奢" ,
+			"top" : [ "q1.jpg" , "q2.jpg" , "q3.jpg" , "q4.jpg" ] ,
+			"small" : [ "q11.jpg" , "q21.jpg" , "q31.jpg" , "q41.jpg" ],
+			"bottom" : [
+				{
+					"src" : "qx1.jpg" ,
+					"name" : "天梭"
+				},
+				{
+					"src" : "qx2.jpg" ,
+					"name" : "赫柏林"
+				},
+				{
+					"src" : "qx3.jpg" ,
+					"name" : "美度"
+				},
+				{
+					"src" : "qx4.jpg" ,
+					"name" : "迪沃斯"
+				},
+				{
+					"src" : "qx5.jpg" ,
+					"name" : "西铁城"
+				},
+				{
+					"src" : "qx6.jpg" ,
+					"name" : "东方双狮"
+				}
+			]
+		},
+		{
+			"name" : "高级" ,
+			"top" : [ "gao1.jpg" , "g2.jpg" , "g3.jpg" , "g4.jpg" ] ,
+			"small" : [ "g11.jpg" , "g21.jpg" , "g31.jpg" , "g41.jpg"  ],
+			"bottom" : [
+				{
+					"src" : "gx1.jpg" ,
+					"name" : "浪琴"
+				},
+				{
+					"src" : "gx2.jpg" ,
+					"name" : "爱宝时"
+				},
+				{
+					"src" : "gx3.jpg" ,
+					"name" : "艾格豪雅"
+				},
+				{
+					"src" : "gx4.jpg" ,
+					"name" : "菲拉格慕"
+				},
+				{
+					"src" : "gx5.jpg" ,
+					"name" : "帝舵"
+				},
+				{
+					"src" : "gx6.jpg" ,
+					"name" : "豪利时"
+				}
+			]
+		},
+		{
+			"name" : "奢华" ,
+			"top" : [ "s1.jpg" , "s2.png" , "s3.jpg" , "s4.jpg" ] ,
+			"small" : [ "s11.jpg" , "s21.jpg" , "s31.jpg" , "s41.jpg"  ],
+			"bottom" : [
+				{
+					"src" : "sx1.jpg" ,
+					"name" : "劳力士"
+				},
+				{
+					"src" : "sx2.jpg" ,
+					"name" : "万国"
+				},
+				{
+					"src" : "sx3.jpg" ,
+					"name" : "库尔沃"
+				},
+				{
+					"src" : "sx4.jpg" ,
+					"name" : "欧米茄"
+				},
+				{
+					"src" : "sx5.jpg" ,
+					"name" : "柏高"
+				},
+				{
+					"src" : "sx6.jpg" ,
+					"name" : "卡洛夫"
+				}
+			]
+		},
+		{
+			"name" : "顶级" ,
+			"top" : [ "d1.jpg" , "d2.jpg" , "d3.jpg" , "d4.jpg" ] ,
+			"small" : [ "d11.jpg" , "d21.jpg" , "d31.jpg" , "d41.jpg"  ],
+			"bottom" : [
+				{
+					"src" : "dx1.jpg" ,
+					"name" : "百达翡丽"
+				},
+				{
+					"src" : "dx2.jpg" ,
+					"name" : "江诗丹顿"
+				},
+				{
+					"src" : "dx3.jpg" ,
+					"name" : "亨利慕时"
+				},
+				{
+					"src" : "dx4.jpg" ,
+					"name" : "宝玑"
+				},
+				{
+					"src" : "dx5.jpg" ,
+					"name" : "宝柏"
+				},
+				{
+					"src" : "dx6.jpg" ,
+					"name" : "伯爵"
+				}
+			]
+		},
+		{
+			"name" : "奢华" ,
+			"top" : [ "ss1.jpg" , "ss2.jpg" , "ss3.jpg" , "ss4.jpg" ] ,
+			"small" : [ "ss11.jpg" , "ss21.jpg" , "ss31.jpg" , "ss41.jpg"  ],
+			"bottom" : [
+				{
+					"src" : "ssx1.jpg" ,
+					"name" : "卡西欧"
+				},
+				{
+					"src" : "ssx2.jpg" ,
+					"name" : "驰客"
+				},
+				{
+					"src" : "ssx3.jpg" ,
+					"name" : "斯沃琪"
+				},
+				{
+					"src" : "ssx4.jpg" ,
+					"name" : "玛莎拉蒂"
+				},
+				{
+					"src" : "ssx5.jpg" ,
+					"name" : "天铭"
+				},
+				{
+					"src" : "ssx6.jpg" ,
+					"name" : "雍加毕索"
+				}
+			]
+		}
+	],
+	"wanbiao" : {
+		"left" : {
+			"src" : "wan.jpg" ,
+			"p1" : "法国赫柏林Michel Herbelin" ,
+			"p2" : "岁月中的恒久坚执"
+		},
+		"right" : [
+			{	
+				"img" :"wan1.jpg" ,
+				"src" : "wx1.jpg" ,
+				"p1" : "香奈儿跟劳力士集团搞上了？" ,
+				"p" : " B Brother  " ,
+				"t" : "01-17"
+			},
+			{
+				"img" :"wan2.jpg" ,
+				"src" : "wx2.jpg" ,
+				"p1" : "2019 SIHH | 理查德米尔卖起萌来有多可怕？" ,
+				"p" : " B Brother  " ,
+				"t" : "01-17"
+			},
+			{
+				"img" :"wan3.jpg" ,
+				"src" : "wx3.jpg" ,
+				"p1" : "爱普生——“不正经”的制表企业" ,
+				"p" : "万表世界" ,
+				"t" : "12-18"
+			},
+			{
+				"img" :"wan4.jpg" ,
+				"src" : "wx4.jpg" ,
+				"p1" : "欧米茄：50年前的机芯又回来了！" ,
+				"p" : " B Brother  " ,
+				"t" : "01-14"
+			}
+		]
+	},
+	"enjoy" : [
+		{
+			"img" : "zun1.png" ,
+			"h3" : "名匠维修" ,
+			"p" : "专业认证 价格透明"
+		},
+		{
+			"img" : "zun2.jpg" ,
+			"h3" : "闲置回收" ,
+			"p" : "闲置手表 极速变现"
+		},
+		{
+			"img" : "zun3.jpg" ,
+			"h3" : "体验中心" ,
+			"p" : "钟表零售新体验"
+		},
+		{
+			"img" : "zun4.jpg" ,
+			"h3" : "会员俱乐部" ,
+			"p" : "给您一份超越手表的关爱"
+		}
+	],
+	"shai" : [
+		{
+			"src" : "shai1.jpg" ,
+			"p" : "法国赫柏林恒星手表和表带都很漂亮，关键可以一个顶仨"
+		},
+		{
+			"src" : "shai2.jpg" ,
+			"p" : "第一次在万表网买，好几个平台比价后觉得还是万表便宜才购买"
+		},
+		{
+			"src" : "shai3.jpg" ,
+			"p" : "关注的瑞士柏高表好看，24小时后误差应该小于5秒"
+		},
+		{
+			"src" : "shai4.jpg" ,
+			"p" : "铜飞！夜光太拉风啦！45大表盘霸气！"
+		}
+	],
+	"like" : [
+		{
+			"src" : "l1.jpg" ,
+			"p1" : "瑞士迪沃斯" ,
+			"p2" : "Diving 潜水系列机械男表" ,
+			"p3" : "￥5,530"
+		},
+		{
+			"src" : "l2.jpg" ,
+			"p1" : "瑞士爱宝时" ,
+			"p2" : "Passion潜激情系列手动机械男表" ,
+			"p3" : "￥10,250"
+		},
+		{
+			"src" : "l3.jpg" ,
+			"p1" : "瑞士欧米茄" ,
+			"p2" : "海马系列自动机械男表" ,
+			"p3" : "￥26,560"
+		},
+		{
+			"src" : "l4.jpg" ,
+			"p1" : "瑞士爱宝时" ,
+			"p2" : "Emotion情感系列自动机械男表" ,
+			"p3" : "￥15,100"
+		},
+		{
+			"src" : "l5.jpg" ,
+			"p1" : "瑞士万国" ,
+			"p2" : "波涛菲诺系列机械男表" ,
+			"p3" : "￥31,064"
+		},
+		{
+			"src" : "l6.jpeg" ,
+			"p1" : "瑞士万国" ,
+			"p2" : "葡萄牙系列手动机械男表" ,
+			"p3" : "￥49,544"
+		},
+		{
+			"src" : "l7.png" ,
+			"p1" : "瑞士万国" ,
+			"p2" : "波涛菲诺系列自动机械男表" ,
+			"p3" : "￥26,560"
+		},
+		{
+			"src" : "l8.jpg" ,
+			"p1" : "法国卡地亚" ,
+			"p2" : "蓝色球系列机械男表" ,
+			"p3" : "￥46,645"
+		},
+		{
+			"src" : "l9.jpg" ,
+			"p1" : "瑞士欧米茄" ,
+			"p2" : "海马系列机械男表" ,
+			"p3" : "￥34,675"
+		},
+		{
+			"src" : "l10.jpg" ,
+			"p1" : "瑞士浪琴" ,
+			"p2" : "康卡斯系列机械男表" ,
+			"p3" : "￥8,160"
+		},
+		{
+			"src" : "l11.jpg" ,
+			"p1" : "法国赫柏林" ,
+			"p2" : "Peries 珍珠系列石英女表" ,
+			"p3" : "￥3,800"
+		},
+		{
+			"src" : "l12.jpg" ,
+			"p1" : "法国万国" ,
+			"p2" : "飞行员系列机械男表" ,
+			"p3" : "￥36,520"
+		},
+		{
+			"src" : "l13.jpg" ,
+			"p1" : "瑞士万国" ,
+			"p2" : "飞行员系列机械男表" ,
+			"p3" : "￥43,560"
+		},
+		{
+			"src" : "l14.jpg" ,
+			"p1" : "瑞士万国" ,
+			"p2" : "葡萄牙系列机械男表" ,
+			"p3" : "￥82,368"
+		},
+		{
+			"src" : "l15.jpg" ,
+			"p1" : "瑞士柏高" ,
+			"p2" : "FIRSHIRE 梦想家系列机械男表" ,
+			"p3" : "￥11,100"
+		},
+		{
+			"src" : "l16.jpg" ,
+			"p1" : "瑞士欧米茄" ,
+			"p2" : "碟飞系列机械男表" ,
+			"p3" : "￥23,370"
+		},
+		{
+			"src" : "l17.jpg" ,
+			"p1" : "瑞士浪琴" ,
+			"p2" : "律雅系列机械男表" ,
+			"p3" : "￥8,938"
+		},
+		{
+			"src" : "l18.jpg" ,
+			"p1" : "瑞士帝舵" ,
+			"p2" : "骏钰系列自动机械男表" ,
+			"p3" : "￥15,580"
+		},
+		{
+			"src" : "l19.png" ,
+			"p1" : "瑞士万国" ,
+			"p2" : "飞行员系列机械男表" ,
+			"p3" : "￥29,392"
+		},
+		{
+			"src" : "l20.jpg" ,
+			"p1" : "瑞士劳力士" ,
+			"p2" : "蚝式恒动系列机械男表" ,
+			"p3" : "￥90,450"
+		}
+
+	]
+	
+}
