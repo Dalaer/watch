@@ -802,8 +802,11 @@
 	border:3px solid #eee;
 	background:#d8d8d8;
 	border-radius:50%;
+	cursor:pointer;
 }
 .mn_bottom ol li:child( 4n ){ margin-right:0; }
 .mn_bottom ol li.mn_on{
 	background:#ccaa7a;border-color:#d8d8d8;
 }
+
+

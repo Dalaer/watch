@@ -1,0 +1,101 @@
+*{
+	margin:0;
+	padding:0;
+	font-size:12px;
+}
+a{ text-decoration:none; }
+body,html{ width:100%;height:100%;background:#fafafa;font-size:0px; }
+.main{
+	width:990px;
+	margin:0 auto;
+	overflow:hidden;
+}
+.logo{
+	height:115px;padding-top:40px;box-sizing:border-box;margin-bottom:40px;
+}
+.table{
+	width:100%;
+	min-height:260px;
+	background:#fff;
+	border:1px solid #eee;box-sizing:border-box;
+	padding:50px 0;
+}
+.table h1{ 
+	font-size:28px;
+	color:teal;
+	font-weight:normal;text-shadow:0 0 2px rgba( 0 , 0 , 0 , .4 );
+	padding-bottom:30px;text-align:center; 
+}
+.detail{
+	width:338px;overflow:hidden;margin:0 auto;
+}
+.detail p{
+	width:100%;
+	margin-top:15px;color:#999;
+	line-height:38px;position:relative;
+}
+.detail .box p em{
+	width:13px;height:16px;
+	position:absolute;
+	top:12px;left:11px;
+}
+.pho_im{ background:url( "../img/more2.png" ) -576px -25px; }
+.yan_im{ background:url( "../img/more2.png" ) -576px top; }
+.pwd_im{ background:url( "../img/more2.png" ) -576px -50px; }
+.detail .box p input{
+	width:301px;height:38px;
+	line-height:38px;
+	border:1px solid #e8e8e8;
+	padding-left:35px;
+	/*float:left;*/
+	outline:0;
+}
+.detail .box span{
+	margin-top:8px;
+	color:#d00000;
+	margin-bottom:-7px;
+	padding-left:17px;
+	display:block;
+	font-size:10px;
+	line-height:30px;
+	background:url( "../img/!.png" ) left center no-repeat;
+}
+.box p input.a_w{ width:193px; }
+.box input::-webkit-input-placeholder{ color:#ddd; }
+.box input::-ms-input-placeholder{ color:#ddd; }
+.box input::-moz-placeholder{ color:#ddd; }
+.ma{ 
+	width:98px;height:38px;
+	line-height:38px;
+	font-style:normal;
+	text-align:center;
+	float:right; border:1px solid #e8e8e8;
+	cursor:pointer;
+}
+.yanma{ 
+	background:url( "../img/star.jpg" ) -564px -484px;
+	font-size:20px;
+ }
+ .email_ma:hover{ background:#fafafa;color:#000; }
+.eye{
+	position:absolute;
+	top:12px;
+	right:11px;
+	background:url( "../img/more3.png" ) -141px -99px;
+	width:16px;height:16px;
+}
+.box p input.referrer{ width:326px;margin-top:15px;padding-left:10px; }
+#btn{
+	width:340px;height:38px;
+	line-height:38px;font-size:14px;
+	color:#fff;border:none;
+	background:#b32424;
+	text-align:center;
+	border-radius:2px;
+	margin:35px auto 0 ;
+	cursor:pointer;
+}
+.aggrement{
+	margin-top:15px;padding-bottom:20px;
+	color:#999;
+}

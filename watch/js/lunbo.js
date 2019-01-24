@@ -181,14 +181,7 @@ $( ".mfi_d1" ).find( "dl" ).on( "mouseleave" , "a" , function(){
 			.end().find( "img" ).show()
 } )
 
-// ------------------------------------------------------------------------------------------------------------------------
-// 客户服务
-$( ".servie_a" ).hover(function(){
-	$( this ).find( "a:first" ).addClass( "a_border" )
-			.next().slideDown( 100 )
-} , function(){
-	$( this ).find( "a:first" ).removeClass( "a_border" )
-			.next().slideUp( 100 )
-})
+
+
 
 

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>万表--登录</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+	<div class="main">
+		<div class="top">
+			<img src="img/logo.png" alt="">
+		</div>
+		<div class="center">
+			<a href="javascript:;"><img src="img/login.jpg" alt=""></a>
+			<div class="content">
+				<ul>
+					<li><a href="javascript:;" class="on member_login">会员登录</a></li>
+					<span>|</span>
+					<li><a href="javascript:;" class="scanCode_login">扫码登录</a></li>
+				</ul>
+				<div class="detail member">
+					<p class="phone">
+						<input type="text" placeholder="请输入您的手机号" id="phone">
+						<i></i>
+					</p>
+					<p class="yan ma">
+						<input type="text" placeholder="请输入图形验证码" id="ma">
+						<span class="img kuang" title="看不清？点击换一张"></span><i></i>
+					</p>
+					<p class="email ma">
+						<input type="text" placeholder="请输入短信验证码" id="email">
+						<span class="email_ma kuang">获取验证码</span><i></i>
+					</p>
+					<p><input type="button" value="立即登录" id="btn_member" class="btn"></p>
+					<p><a href="register.html" class="register">免费注册</a></p>
+					<p class="change">
+						<a href="javascript:;" class="username_login">账号密码</a>
+						<span>|</span>
+						<a href="javascript:;">社交登录</a>
+					</p>
+				</div>
+				<div class="detail username">
+					<p>
+						<input type="text" placeholder="手机号码/会员名/邮箱" id="user_phone">
+						<i></i>
+					</p>
+					<p>
+						<input type="password" placeholder="密码" id="user_pwd">
+						<i></i>
+					</p>
+					<p><input type="button" id="btn_user" class="btn" value="立即登录"></p>
+					<p>
+						<a href="register.html" class="fl register">免费注册</a>
+						<a href="javascript:;" class="fr register">忘记密码</a>
+					</p>
+					<p class="change">
+						<a href="javascript:;" class="member_login phone_login">手机动态码登录<i></i></a>
+						<span>|</span>
+						<a href="javascript:;">社交登录</a>
+					</p>
+				</div>
+				<div class="scanCode detail">
+					<div class="scanCode_img">
+						<img src="img/erma.png" alt="">
+					</div>
+					<p>
+						使用<a href="javscript:;">万表APP</a>扫码登录<br />
+						<span>在首页顶部搜索栏点击扫一扫</span>
+					</p>
+					<a href="javascript:;" class="load">下载万表APP</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/cookie.js"></script>
+<script src="js/login.js"></script>

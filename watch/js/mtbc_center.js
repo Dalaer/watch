@@ -8,14 +8,14 @@
 		async : true ,
 		success : function(res){
 			// 限时购中的轮播图--------
-			$list = res.xianshigou.list;
+			$list = res.xianshigou;
 			var str = "";
 			var $uli = $( ".mtbc_center" ).find( "ul" );
 			var $w = 190*3;
 			for( var $i in $list ){
 				var pro = $list[$i];
 				str += `<li>
-							<a href="">
+							<a href="http://127.0.0.1/watch/goods.html?alive=xianshigou&id=${pro.id}">
 								<img src="img/${ pro.src }" alt="">
 								<div class="mtbc_p">
 									<p class="c_p">${ pro.name }</p>
@@ -23,9 +23,9 @@
 										<span class="discount">
 											<em>${ pro.discount }</em>折
 										</span>
-										<span class="xian_now">${ pro.prev }</span>
+										<span class="xian_now">${ pro.sell }</span>
 									</div>
-									<p class="xian_prev">${ pro.now }</p>
+									<p class="xian_prev">${ pro.prev }</p>
 								</div>
 							</a>
 						</li>`
@@ -36,7 +36,7 @@
 					break;
 				}
 				str += `<li>
-							<a href="">
+							<a href="http://127.0.0.1/watch/goods.html?alive=xianshigou&id=${pro.id}">
 								<img src="img/${ pro.src }" alt="">
 								<div class="mtbc_p">
 									<p class="c_p">${ pro.name }</p>
@@ -44,9 +44,9 @@
 										<span class="discount">
 											<em>${ pro.discount }</em>折
 										</span>
-										<span class="xian_now">${ pro.prev }</span>
+										<span class="xian_now">${ pro.sell }</span>
 									</div>
-									<p class="xian_prev">${ pro.now }</p>
+									<p class="xian_prev">${ pro.prev }</p>
 								</div>
 							</a>
 						</li>`
@@ -100,20 +100,20 @@
 				var pro = $daren[x];
 				str += `<div class="mt_one">
 							<div class="mtb_left">
-								<a href="" class="mtb_l_a a_h2">
+								<a href="http://127.0.0.1/watch/goods.html?alive=daren&direction=left&id=${pro.left.id}"class="mtb_l_a a_h2">
 									<img src="img/${ pro.left.src }" alt="" class="a_h2">
 									<div class="mtb_l_p">
-										<p class="mtb_p1">${ pro.left.p1 }</p>
+										<p class="mtb_p1">${ pro.left.name }</p>
 										<p class="mtb_p2">${ pro.left.p2 }</p>
 									</div>
 									<i class="bg_img"></i>
 								</a>
 							</div>
 							<div class="mth_right">
-								<a href=""><img src="img/${ pro.right[0] }" alt=""></a>
-								<a href=""><img src="img/${ pro.right[1] }" alt=""></a>
-								<a href=""><img src="img/${ pro.right[2] }" alt=""></a>
-								<a href=""><img src="img/${ pro.right[3] }" alt=""></a>
+								<a href="http://127.0.0.1/watch/goods.html?alive=daren&direction=right&id=${pro.right[0].id}"><img src="img/${ pro.right[0].src }" alt=""></a>
+								<a href="http://127.0.0.1/watch/goods.html?alive=daren&direction=right&id=${pro.right[1].id}"><img src="img/${ pro.right[1].src }" alt=""></a>
+								<a href="http://127.0.0.1/watch/goods.html?alive=daren&direction=right&id=${pro.right[2].id}"><img src="img/${ pro.right[2].src }" alt=""></a>
+								<a href="http://127.0.0.1/watch/goods.html?alive=daren&direction=right&id=${pro.right[3].id}"><img src="img/${ pro.right[3].src }" alt=""></a>
 							</div>
 						</div>`;
 				return str;
@@ -195,10 +195,10 @@
 			function addleft( x ){
 				var str = "" ;
 				var pro = $pai[x].left;
-				str += `<a href="" class="mtb_l_a a_h3">
+				str += `<a href="http://127.0.0.1/watch/goods.html?alive=paihang&direction=left&id=${pro.id}" class="mtb_l_a a_h3">
 							<img src="img/${pro.src}" alt="" class="a_h2">
 							<div class="mtb_l_p">
-								<p class="mtb_p1">${ pro.p1 }</p>
+								<p class="mtb_p1">${ pro.name }</p>
 								<p class="mtb_p2">${ pro.p2 }</p>
 							</div>
 							<i class="bg_img"></i>
@@ -210,14 +210,14 @@
 			function addcenter( x ){
 				var str = "" ;
 				var pro = $pai[x].center;
-				str += `<a href="" class="mfc_a">
+				str += `<a href="http://127.0.0.1/watch/goods.html?alive=paihang&direction=center&id=${pro.id}" class="mfc_a">
 							<i class="i_con i_bac">No.1</i>
 							<div class="mfca_img">
 								<img src="img/${pro.img}" alt="">
 							</div>
 							<div class="mfca_p">
 								<p class="mfca_pimg"><img src="img/${pro.src}" alt=""></span>
-								<p class="mfca_p1">${pro.p1}</p>
+								<p class="mfca_p1">${pro.name}</p>
 								<span class="now_sell">${pro.sell}</span>
 								<span class="now_count">/ 销量<b>${pro.count}</b></span>
 								<span class="sp_check">立即查看</span>
@@ -234,11 +234,11 @@
 					var pp = arr[i];
 					var x = ++i ;
 					str += `<li>
-								<a href="">
+								<a href="http://127.0.0.1/watch/goods.html?alive=paihang&direction=right&id=${pp.id}">
 									<i>No.${++x}</i>
 									<img src="img/${pp.src}" alt="">
 									<div class="introduce">
-										<p class="inp1">${pp.inp1}</p>
+										<p class="inp1">${pp.name}</p>
 										<span class="now_sell">${pp.sell}</span>
 										<span class="now_count">/ 销量<b>${pro.count}</b></span>
 									</div>
@@ -512,14 +512,14 @@
 			for( var i in $like ){
 				var pro = $like[i];
 				str += `<li>
-							<a href="">
+							<a href="http://127.0.0.1/watch/goods.html?alive=like&id=${pro.id}">
 								<div class="mn_im">
 									<img src="img/${ pro.src }" alt="">
 								</div>
 								<div class="mnb_p">
 									<p class="mn_p1">${ pro.p1 }</p>
-									<p class="mn_p2">${ pro.p2 }</p>
-									<p class="mn_p3">${ pro.p3 }</p>
+									<p class="mn_p2">${ pro.name }</p>
+									<p class="mn_p3">${ pro.sell }</p>
 								</div>
 							</a>
 						</li>`
@@ -530,14 +530,14 @@
 					break;
 				}
 				str += `<li>
-							<a href="">
+							<a href="http://127.0.0.1/watch/goods.html?alive=like&id=${pro.id}">
 								<div class="mn_im">
 									<img src="img/${ pro.src }" alt="">
 								</div>
 								<div class="mnb_p">
 									<p class="mn_p1">${ pro.p1 }</p>
-									<p class="mn_p2">${ pro.p2 }</p>
-									<p class="mn_p3">${ pro.p3 }</p>
+									<p class="mn_p2">${ pro.name }</p>
+									<p class="mn_p3">${ pro.sell }</p>
 								</div>
 							</a>
 						</li>`
@@ -547,7 +547,7 @@
 			var timer = null;
 			var s = 0 ;
 			var $w = $( ".mn_bottom" ).width();
-			timer = setInterval( play , 2000 );
+			timer = setInterval( play , 3000 );
 			function play(){
 				s++;
 				if( s == 6 ){
@@ -574,7 +574,7 @@
 				};
 				s-=2;
 				play();
-				timer = setInterval( play , 2000 );
+				timer = setInterval( play , 3000 );
 			} );
 			$( ".mn_n" ).click( function(){
 				clearInterval( timer );
@@ -588,7 +588,7 @@
 					s = 0;
 				};
 				play();
-				timer = setInterval( play , 2000 );
+				timer = setInterval( play , 3000 );
 			} );
 			// 点击每一个ol li 让其对应显示
 			$( ".mn_bottom" ).on( "click" , "li" , function(){
@@ -604,7 +604,6 @@
 	//	吸顶效果
 	$( window ).scroll( function(){
 		var $top = $( document ).scrollTop();
-		console.log( $top )
 		if( $top >= 140 ){
 			$( ".nav_fix" ).css( "display" , "block" );
 		}else{
